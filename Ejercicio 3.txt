@@ -1,0 +1,28 @@
+
+
+	2. Pseudocódigo:
+		Start
+   			Declare float: precioCompra, costoReparaciones, precioVenta, comisionVendedor, costoTotal, gananciaOPerdida
+    			Const float COMISION = 0.05
+    
+    			precioCompra = 15000
+    			costoReparaciones = 2000
+    			precioVenta = 18500
+    
+    			costoTotal = precioCompra + costoReparaciones
+    			comisionVendedor = precioVenta * COMISION 
+    			gananciaOPerdida = precioVenta - costoTotal - comisionVendedor
+    
+    			Escribir "El costo total que fue invertido es de: $", costoTotal
+    			Escribir "La comisión pagada al vendedor es de: $", comisionVendedor
+    			Escribir "El Precio final de la venta es de: $", precioVenta
+    
+    			Si gananciaOPerdida > 0 Entonces
+        			Escribir "Ganancia obtenida: $", gananciaOPerdida
+    			Sino Si gananciaOPerdida < 0 Entonces
+        			Escribir "Pérdida generada: $", abs(gananciaOPerdida)
+    			Sino
+        			Escribir "No se obtuvo ninguna ganancia ni pérdida en la venta realizada."
+    			
+		End
+

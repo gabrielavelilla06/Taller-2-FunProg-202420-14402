@@ -1,0 +1,39 @@
+Ejercicio #2: Cálculo de Material para Construcción
+
+	1. Algoritmo:
+		1. Iniciar programa.
+		2.Declaración y asignación de variables:
+			2.1 Declarar variable total.
+			2.2 Declarar variable cantidad de bolsas.
+		
+		3. Obtener información para calculos:
+			3.1 Solicitar al usuario que digite el área total que se desea cubrir.
+			
+		4. Calcular la cantidad de bolsas que son necesarias.
+		5. Mostrar el resultado del calculo anterior.
+		6. Finalizar programa.
+
+
+	2. Pseudocódigo: 
+Program calculo_materiales
+Start
+//programa para calcular cantidad de materiales en pies cuadrados
+Declare flot: areaPorCubrir,
+Declare float cantidadDeBolsas
+Const float area_por_bolsa = 1500.00
+    
+//Pedir datos al usuario
+Display "Por favor ingresar el total de pies cuadrados que desea cubrir: "
+Leer areaPorCubrir
+    
+cantidadDeBolsas = areaPorCubrir/area_por_bolsa
+
+//Mostrar resultados
+Escribir "Se necesitan ", cantidadDeBolsas, " bolsas de cemento para cubrir ", areaPorCubrir, " pies cuadrados."
+		
+End.
+
+
+
+
+

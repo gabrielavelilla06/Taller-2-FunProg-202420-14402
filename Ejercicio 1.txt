@@ -1,0 +1,41 @@
+Ejercicio #1. Información de un Producto
+
+
+	1. Algoritmo:
+		1.Iniciar programa.
+		2. Declaración de variables:
+			2.1 Declarar Variable nombre
+			2.2 Declarar Variable descripción.
+			2.3 Declarar Variable precio.
+			2.4 Declarar Variable código de barras.
+
+		3. Obtener información de producto.
+			3.1 Indicar al usuario que ingrese la información del producto.
+			3.2 Obtener o almacenar la información ingresada.
+		
+		4. Mostrar la información ingresada.
+		5. Finalizar programa.
+
+	2. Pseudocódigo:
+		Iniciar
+    			Declarar cadena: nombre, descripcion, codigoBarras
+    			Declarar real: precio
+    
+    			Escribir "Ingrese el nombre del producto: "
+    			Leer nombre
+    
+    			Escribir "Ingrese la descripción del producto: "
+    			Leer descripcion
+    
+    			Escribir "Ingrese el precio del producto: "
+    			Leer precio
+    
+    			Escribir "Ingrese el código de barras del producto: "
+    			Leer codigoBarras
+    
+    			Escribir "Información del producto:"
+    			Escribir "Nombre: ", nombre
+    			Escribir "Descripción: ", descripcion
+    			Escribir "Precio: $", precio
+    			Escribir "Código de barras: ", codigoBarras
+		Finalizar
